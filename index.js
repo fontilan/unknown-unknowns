@@ -14,7 +14,7 @@ function draw() {
     curveVertex(0, n);
     for (i = 0; i < width; i += width / 50) {
       let d = dist(i, n, width / 2, n);
-      curveVertex(i, n - noise(n / 2 + i * 0.003) * (width / 2 - d));
+      curveVertex(i, n - noise(n / 2 + i * 0.006) * (width / 2 - d));
     }
     curveVertex(width, n);
     curveVertex(width, n);
